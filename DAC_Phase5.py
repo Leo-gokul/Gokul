@@ -6,6 +6,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
+
+#google colab link - https://colab.research.google.com/drive/1ImLhx7zuUXx5p-mCZdKMoYFnsL0_nj2W?usp=sharing
+# here all the program run correctly
+
 uploaded = files.upload()
 
 # Get the first uploaded file (assuming you're uploading a single file)
